@@ -3,4 +3,3 @@ Demo for pull
 again updated from github
 =======
 changes from local repository
->>>>>>> f99d595 (from local)
