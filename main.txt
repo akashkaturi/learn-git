@@ -1,5 +1,0 @@
-Demo for pull
-<<<<<<< HEAD
-again updated from github
-=======
-changes from local repository
