@@ -2,7 +2,7 @@ woahamii...
 hello world 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
-
+ idhendho naku telvadhu but add chesthunna
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/akashkaturi/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
