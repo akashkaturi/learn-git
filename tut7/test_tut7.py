@@ -16,16 +16,16 @@ def make_dummy_student():
     return _make_dummy_student
 
 
-def test_student_get_age(dummy_student):
+def test_student_get_age_2(dummy_student):
     dummy_student_age = (datetime.now() - dummy_student.dob).days // 365
     assert dummy_student.get_age() == dummy_student_age
 
 
-def test_student_get_credits(dummy_student):
+def test_student_get_credits_2(dummy_student):
     assert dummy_student.get_credits() == 20
 
 
-def test_get_topper(make_dummy_student):
+def test_get_topper_top(make_dummy_student):
     students = [
         make_dummy_student("ram", 21),
         make_dummy_student("bheem", 19),
