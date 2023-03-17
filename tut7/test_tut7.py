@@ -3,11 +3,7 @@ from datetime import datetime
 import pytest
 
 
-@pytest.fixture
-def dummy_student():
-    return Student("Akash", datetime(2000, 1, 1), "CSE", 20)
-
-
+# here were are making a factory fixture, so this fixture can be used as a parameter for creating tests
 @pytest.fixture
 def make_dummy_student():
     def _make_dummy_student(name, credits):
@@ -16,15 +12,7 @@ def make_dummy_student():
     return _make_dummy_student
 
 
-def test_student_get_age_2(dummy_student):
-    dummy_student_age = (datetime.now() - dummy_student.dob).days // 365
-    assert dummy_student.get_age() == dummy_student_age
-
-
-def test_student_get_credits_2(dummy_student):
-    assert dummy_student.get_credits() == 20
-
-
+# here students starts storing the fixture objects which can be later used for assertions
 def test_get_topper_top(make_dummy_student):
     students = [
         make_dummy_student("ram", 21),
@@ -34,3 +22,7 @@ def test_get_topper_top(make_dummy_student):
 
     topper = get_topper(students)
     assert topper == students[2]
+    assert students[2].name == "ravi"
+
+
+print("glpat-ag3xiGGyygw9o_eesm7z")
