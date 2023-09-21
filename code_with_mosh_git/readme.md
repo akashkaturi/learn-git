@@ -65,10 +65,17 @@ git log --oneline --reverse (with oldest commit on the top and latest at the bot
 ```bash
 git restore --staged file1.js
 ```
-# Discarding local changes 
+
+# Discarding local changes
 
 ```bash
-git restore file1.js --> to discard the local changes of a particular file 
+git restore file1.js --> to discard the local changes of a particular file
 git restore . --> to discard all local changes (it won't be able to remove untracked files.)
 git clean -fd --> it will remove all untracked files
+```
+
+# Restoring a file to previous version
+
+```bash
+git restore --source=HEAD~1 readme.md  
 ```
