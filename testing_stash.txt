@@ -1,1 +1,13 @@
 This file is on main branch and ready for stash
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+NOw the stash functionality can be checked.
+>>>>>>> Stashed changes
+=======
+NOw the stash functionality can be checked.
+>>>>>>> Stashed changes
+=======
+NOw the stash functionality can be checked.
+>>>>>>> Stashed changes
